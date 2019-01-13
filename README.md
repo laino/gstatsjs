@@ -1,4 +1,13 @@
 # gstatsjs
+
+This is a fork of [eXponenta's gstatsjs](https://github.com/eXponenta/gstatsjs) that can be imported as a ES6 module. Additionally, it can be installed from [NPM](https://www.npmjs.com/package/gstats).
+No other modifications have been made (and none are planned). More informations [here](https://github.com/eXponenta/gstatsjs/pull/2).
+
+```sh
+npm install gstats # for npm users
+yarn add gstats # alternatively, for yarn users
+```
+
 Graphics statistics (Texture count, DrawPasses) for WebGL applications. Capability with [stats.js](https://github.com/mrdoob/stats.js)
 
 # Remarks
