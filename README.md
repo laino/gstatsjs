@@ -1,7 +1,8 @@
 # gstatsjs
 
-This is a fork of [eXponenta's gstatsjs](https://github.com/eXponenta/gstatsjs) that can be imported as a ES6 module. Additionally, it can be installed from [NPM](https://www.npmjs.com/package/gstats).
-No other modifications have been made (and none are planned). More informations [here](https://github.com/eXponenta/gstatsjs/pull/2).
+This is a fork of [eXponenta's gstatsjs](https://github.com/eXponenta/gstatsjs) that can be imported as a ES6 module. Additionally, it can be installed from [NPM](https://www.npmjs.com/package/gstats). More informations [here](https://github.com/eXponenta/gstatsjs/pull/2).
+
+It also drops support of Pixi v4 in favor of v5.
 
 ```sh
 npm install gstats # for npm users

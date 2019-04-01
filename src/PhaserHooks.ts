@@ -1,3 +1,5 @@
+// @ts-ignore (it's a peer dependency)
+import { Renderer } from 'pixi.js';
 import BaseHooks from './BaseHooks';
 
 export default class PhaserHooks extends BaseHooks {
@@ -27,7 +29,7 @@ export default class PhaserHooks extends BaseHooks {
 
 			} else {
 
-				if(game.renderer instanceof PIXI.WebGLRenderer){
+				if(game.renderer instanceof Renderer){
 
 					this.attach(game.renderer.gl);
 
